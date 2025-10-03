@@ -1,0 +1,61 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.root {
+}
+
+.sidebar {
+    width: calc(100% / 3);
+}
+
+.main {
+    width: calc((100% / 3) * 2);
+}
+
+/*
+ ***************************************************
+ * UTILITY
+ ***************************************************
+ */
+
+ .flex {
+    display: flex;
+ }
+
+ .flex-wrap {
+    flex-wrap: wrap;
+ }
+
+.justify-content-center {
+    justify-content: center;
+}
+
+/*
+ ***************************************************
+ * DEBUG
+ ***************************************************
+ */
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+ .bg-blue {
+    background-color: blue;
+ }
+
+ .bg-pink {
+    background-color: pink;
+ }
+
+ .min-h-500 {
+    min-height: 500px;
+ }
+
+  .min-h-100 {
+    min-height: 100px;
+ }
