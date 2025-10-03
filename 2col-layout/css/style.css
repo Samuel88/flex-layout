@@ -16,6 +16,11 @@
     width: calc((100% / 3) * 2);
 }
 
+.art {
+   width: calc(100% / 2);
+}
+
+
 /*
  ***************************************************
  * UTILITY
@@ -34,11 +39,35 @@
     justify-content: center;
 }
 
+.text-center {
+   text-align: center;
+}
+
+.font-2rem {
+   font-size: 2rem;
+}
+
+.font-bold {
+   font-weight: bold;
+}
+
 /*
  ***************************************************
  * DEBUG
  ***************************************************
  */
+
+.color-white {
+   color: white;
+}
+
+.color-dimgrey {
+   color: dimgrey;
+}
+
+.bg-fuchsia {
+   background-color: fuchsia;
+}
 
 .bg-yellow {
     background-color: yellow;
